@@ -16,15 +16,15 @@ $ docker-compose up
 # Architecture
 
 ## Context Diagram
-[Context Diagram](./context-diagram.png)
+![Context Diagram](./context-diagram.png)
 
 ## Container Diagram
-[Container Diagram](./container-diagram.png)
+![Container Diagram](./container-diagram.png)
 
 ## Component Diagram
 
 - Focused on the Main Server
-[Component Diagram](./component-diagram.png)
+![Component Diagram](./component-diagram.png)
 
 ## Service-oriented Architecture Patterns
 
