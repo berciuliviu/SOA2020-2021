@@ -8,6 +8,8 @@ The application offers two main pages:
 
 A notification is send whenever a new car is added to the fleet.
 
+![application photo](./App-image.PNG)
+
 # Installation
 ```
 $ docker-compose up
@@ -24,6 +26,7 @@ $ docker-compose up
 ## Component Diagram
 
 - Focused on the Main Server
+
 ![Component Diagram](./component-diagram.png)
 
 ## Service-oriented Architecture Patterns
