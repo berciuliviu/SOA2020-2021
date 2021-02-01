@@ -1,0 +1,23 @@
+version: '3'
+services:
+  authentication-service:
+    build: './authentication-service'
+    ports:
+      - "3002:3002"
+      - "8080:8080" 
+  users-service:
+    build: './users-service'
+    ports:
+      - "3004:3004"
+  car-photos-service:
+    build: './car-photos-service'
+    ports:
+      - "3003:3003"
+  taxi-service:
+    build: './taxi-server'
+    ports:
+      - "3001:3001"
+  web-client:
+    build: './web-client'
+    ports:
+      - "3000:3000"
