@@ -16,16 +16,15 @@ $ docker-compose up
 # Architecture
 
 ## Context Diagram
-[](./context-diagram.png)
+[Context Diagram](./context-diagram.png)
 
 ## Container Diagram
-[](./container-diagram.png)
+[Container Diagram](./container-diagram.png)
 
 ## Component Diagram
 
 - Focused on the Main Server
-
-[](./component-diagram.png)
+[Component Diagram](./component-diagram.png)
 
 ## Service-oriented Architecture Patterns
 
@@ -36,3 +35,4 @@ Those are the following:
 - Database per Service - each service has its own private database
 - Service instance per Container - deploy each service instance in its container
 - API gateway - a service that provides each client with unified interface to services
+- Access Token - a token that securely stores information about user that is exchanged between services
